@@ -1,0 +1,32 @@
+//Algoritmo
+1. Inicio
+2. Pedirle al usuario ingresar el valor de X
+3. Pedirle al usuario ingresar el valor de Y
+4. Crear condicionales para poder saber en que cuadrante van a estar ubicados
+5. Presentar un mensaje en pantalla que nos indique en que cuadrante están los valores
+6. Fin
+
+//Miniespecificación
+1. Inicio
+2. x, i,[0,n]
+3. y, i,[0,n]
+
+4. Escribir "Ingrese el número que represente a X en el plano cartesiano"
+5. Leer X
+
+6. Escribir "Ingrese el número que represente a Y en el plano cartesiano"
+7. Leer Y
+
+8. Si x >= 1 and y >= 1 entonces
+9. 		Leer "Los números ingresados pertenecen al primer cuadrante"
+
+10. Si x <= 1 and y >= 1 entonces
+11. 		Leer "Los números ingresados pertenecen al segundo cuadrante"
+
+12. Si x <= 1 and y <= 1 entonces
+13. 		Leer "Los números ingresados pertenecen al tercer cuadrante"
+
+14. Si x >= 1 and y <= 1 entonces
+15. 		Leer "Los números ingresados pertenecen al cuarto cuadrante"
+
+16. Fin

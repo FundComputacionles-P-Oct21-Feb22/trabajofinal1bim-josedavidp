@@ -1,0 +1,55 @@
+//Algoritmo
+1. Inicio
+2. Se pide al usuario que ingrese el numero de trajes comprados
+3. Se pide al usuario que ingrese el precio de un traje
+5. Se obtiene el subtotal multiplicando el numero de trajes por el precio unitario
+6. Se obtiene el descuento en base al numero de trajes comprados
+7. Se obtiene el total restando al subtotal el descuento
+8. Se muestra en pantalla el subtotal
+8. Se muestra en pantalla el descuento
+9. Se muestra en pantalla el total
+10. Fin
+
+//Miniespecificación
+1. Inicio
+//Variables
+2. trajes, i[0,n]
+3. precio, d[0,n]
+4. subtotal, d[0,n]
+5. descuento, d[0,n]
+6. total, d[0,n]
+
+7. Escribir "Ingrese el número de trajes comprados"
+8. Leer trajes
+9. Escribir "Ingrese el costo de un traje"
+10. Leer precio
+
+11. subtotal = trajes * precio
+
+12. Si trajes = 1 entonces
+13. descuento <-- (20 * subtotal)/100
+14. total <-- (subtotal - descuento)
+15. Fin si
+
+16. Si trajes = 2 entonces
+17. descuento <-- (25 * subtotal)/100
+18. total <-- (subtotal - descuento)
+19. Fin si
+
+20. Si trajes = 3 entonces
+21. descuento <-- (40 * subtotal)/100
+22. total <-- (subtotal - descuento)
+23. Fin si
+
+24. Si trajes > 3 entonces
+25. descuento <-- (50 * subtotal)/100
+26. total <-- (subtotal - descuento)
+27. Fin si
+
+28. Escribir "El subtotal es: " + subtotal
+29. Escribir "El descuento es:  " + descuento
+30. Escribir "El total por pagar es: " + total
+31. Fin si
+
+
+

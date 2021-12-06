@@ -1,0 +1,41 @@
+//Algoritmo
+1. Inicio
+2. Ingresar las variables
+3. Pedirle al usuario ingresar un número
+4. Pedirle al usuario ingresar un número diferente al anterior 
+5. Pedirle al usuario ingresar un número diferente a los dos anteriores
+6. Verificar que los números ingresados no sean iguales
+7. Si los números ingresados son iguales presentar un mensaje de error
+8. Calcular cual de los 3 números ingresados es el mayor
+9. Mostrar en pantalla el número mayor
+10. Fin
+
+
+//Miniespecificación
+1. Inicio
+//Variables
+2. numero1, i[0,n]
+3. numero2, i[0,n]
+4. numero3, i[0,n]
+
+7. Escribir "Ingrese un número"
+8. Leer numero1
+9. Escribir "Ingrese un número diferente al ingresado anteriormente"
+10. Leer numero2
+11. Escribir "Ingrese un número diferente a los anteriores"
+12. Leer numero3
+
+13. Si numero1 = numero2 or numero1 = numero3 or numero2 = numero3 entonces
+14.		Leer "Los numeros ingresados se repiten"
+15. Fin si
+
+16. Si numero1 > numero2 and numero1 > numero3 entonces
+17.		Leer "El número mayor es " + numero1
+
+18.	Si numero2 > numero1 and numero2 > numero3 entonces
+19.		Leer "El número mayor es " + numero2
+
+20. Si numero3 > numero1 and numero3 > numero2 entonces
+21. Leer "El número mayor es " + numero3
+
+22. Fin

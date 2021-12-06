@@ -1,0 +1,29 @@
+//Algoritmo
+1. Inicio
+2. Se pide al usuario los grados del triangulo que desea saber
+3. Se crea tres condicionales si, dependiendo del valor ingresado por el usuario
+4. Se muestra en pantalla que tipo de triángulo es
+5. Fin
+
+//Miniespecificación
+1. Inicio
+//Variables
+2. rectangulo, d[0,n]
+3. obtusangulo, d[0,n]
+4. acutangulo, d[0,n]
+5. grados, d[0,n]
+
+6. << "Ingrese los grados del triangulo que quiera saber"
+7. >> grados 
+8. Si grados = 90 entonces
+	Escribir "El ángulo ingresado pertenece a un triángulo rectángulo"
+9. De lo contrario
+10.  Si grados > 90 and < 180 entonces
+11. 	Escribir "El ángulo ingresado pertenece a un triángulo obtusángulo"
+12. De lo contrario
+13.  Si grados < 90
+14. 	Escribir "El ángulo ingresado pertenece a un triángulo acutángulo"
+15.	Fin si
+16.   Fin si
+17. Fin si
+18. Fin

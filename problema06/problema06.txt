@@ -1,0 +1,20 @@
+//Algoritmo
+1. Inicio
+2. Se declara las variables que van a ser usadas
+3. Mostrar en pantalla el primer numero con el que se va a empezar
+4. Crear un ciclo repetitivo el cual el límite sea 100
+5. Se muestra en pantalla el ciclo repetitivo hasta que se cumpla la condición
+6. Fin
+
+//Miniespecificación
+1. Inicio
+2. limite, i[0,n] <-- 100
+3. numerador, i[0,n] <-- 1
+4. denominador, i[0,n] <-- 2
+5. positivo, x(1) [{+}]
+
+6. Leer numerador
+7. Mientras(denominador <= limite) Entonces
+8.		Leer positivo + numerador + "/" + denominador
+9. Fin Mientras
+10. Fin

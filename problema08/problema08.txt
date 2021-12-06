@@ -1,0 +1,29 @@
+//Miniespecificación
+1. Inicio
+2. yardas, d[0,n]
+3. pies, d[0,n]
+4. pulgadas d[0,n]
+5. numero i[0,n] <-- 1
+6. limite i[0,n]
+7. cadena1, x(1000)[{A-Z}, {a-z}, {1-n}, {BS}] <-- ""
+8. cadena2, x(1000)[{A-Z}, {a-z}, {1-n}, {BS}] <-- ""
+9. cadena1_2 x(1000)[{A-Z}, {a-z}, {1-n}, {BS}] <-- ""
+
+10. Mientras(numero <= limite)
+11.		Si (limite < 0) entonces
+12.		Escribir "Número incorrecto"
+13. Caso contrario
+14. 	yardas <-- (numero * 1)/0.9144
+15. 	pies <-- (numero * 3.28084)/1
+16. 	pulgadas <-- (numero * 39.3701)/1
+
+17. cadena1 <--"Metros|Yardas|Pulgadas|Pies"
+18. numero <-- numero + 1
+
+19. cadena2 <-- (cadena2\n + "|" + yardas + "|" + pulgadas + "|" + pies)
+20. cadena1_2 <-- (cadena1 + cadena2)
+
+21. Fin si
+22. Fin Mientras
+23. Escribir cadena1_2
+24. Fin

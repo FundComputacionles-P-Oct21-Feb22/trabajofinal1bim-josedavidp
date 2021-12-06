@@ -1,0 +1,18 @@
+//Miniespecificación
+1. Inicio
+2. numero, i[0,n]
+3. i, i[0,n] <-- 1
+4. suma, i[0,n] <-- 0
+
+5. Escribir "Ingrese un numero"
+6. Leer numero
+
+7. Si numero MOD 2 == 0 or numero >= 2
+8.		Mientras i < numero + 1
+9. 		 Si i MOD 2  == 0
+10.			suma + = i
+11. 	 i + = 1
+12. 	Escribir "La suma de los numeros pares es: ", suma
+13. Caso contrario
+14. 	Escribir "El numero ingresado no es correcto"
+15. Fin

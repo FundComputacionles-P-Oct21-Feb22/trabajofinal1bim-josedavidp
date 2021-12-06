@@ -1,0 +1,26 @@
+1. Inicio
+2. numero1, i[0,n] <-- 1
+3. numero2, i[0,n] <-- 1
+4. termino1, i[0,n]
+5. termino2, i[0,n]
+6. k, i[0-n]
+7. coeficiente, i[0,n]
+8. cadena, x(1000)[{A-Z}, {a-z}, {1-n}, {BS}] <-- ""
+
+9.Leer k
+
+10. Mientras numero1 <= k Haga
+11. 	termino1 <-- numero2 * 12
+12. 	termino2 <-- numero2 * 11
+13. cadena <-- cadena + termino1 - termino2
+14. numero2 <-- numero2 + 1
+15. numero1 <-- numero1 + 2
+16. Fin Mientras
+
+17. Si k MOD 2 == 1 Entonces
+18. 	termino1 <-- coeficiente * numero2 * 12
+19. cadena <-- cadena + termino1
+20. Fin Si
+
+21. Escribir "El valor de la serie es " + cadena
+22. Fin
